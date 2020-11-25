@@ -41,3 +41,15 @@ padding-bottom: 5px;}
 		color: #008ae6;
 }
 /* END NAV BAR */
+
+
+/* START JUMBOTRON */
+
+.jumbo-row{
+	height: 400px;
+}
+
+.bg-jumbo{
+	background-image: url(../img/bg-home.svg);
+	background-size: cover;
+}
