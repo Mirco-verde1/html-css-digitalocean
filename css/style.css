@@ -14,7 +14,7 @@ color:#031b4e;
 }
 
 .btn-2{
-	padding: 6px;
+	padding: 5px;
 	border: 1px solid #008ae6;
 	color: #008ae6;
 	border-radius: 5px;
@@ -30,7 +30,7 @@ padding-bottom: 5px;}
 
 .options-navbar ul li{
 	display: inline-block;
-	font-size: 15px;
+	font-size: 12px;
 	padding-right: 5px;
 	line-height: 55px;
 	font-weight: bolder;
@@ -46,10 +46,37 @@ padding-bottom: 5px;}
 /* START JUMBOTRON */
 
 .jumbo-row{
-	height: 400px;
+min-height: 700px;
 }
 
 .bg-jumbo{
 	background-image: url(../img/bg-home.svg);
 	background-size: cover;
+}
+
+.input-part{
+	background-color: #fff;
+	height: 400px;
+	text-align: center;
+
+}
+
+.input-jumbo{
+	display:block;
+	width: 90%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	position: relative;
+	transform: translate(-50%, 0);
+	left: 50%;
+}
+.account-jumbo{
+	width: 90%;
+height: 28px;
+position: relative;
+left: 5%;
+line-height:28px;
+border-radius: 5px;
+background: #008ae6;
+color:#fff;
 }
