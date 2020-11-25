@@ -1,0 +1,20 @@
+/* COMMON CLASS */
+
+.bool-txt-white{
+	color: #fff;
+}
+
+.bool-txt-darkblue{
+color:#031b4e;
+}
+/*END COMMON CLASS */
+
+.navbar-brand img{
+	height: 30px;
+	width: auto;
+padding-bottom: 5px;}
+
+.options-navbar ul li{
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
