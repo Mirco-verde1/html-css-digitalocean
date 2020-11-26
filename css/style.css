@@ -7,17 +7,29 @@
 
 .bool-txt-white{
 	color: #fff;
+	font-weight: bold;
+}
+.bool-txt-lightblue{
+	color:#008ae6;
+	font-weight: bold;
 }
 
 .bool-txt-darkblue{
 color:#031b4e;
+font-weight: bold;
 }
 
 .btn-2{
 	padding: 5px;
 	border: 1px solid #008ae6;
-	color: #008ae6;
+	color:#008ae6;
 	border-radius: 5px;
+}
+
+.btn-3{
+	background: #fff;
+	color: #b8b894;
+	font-weight: bold;
 }
 /*END COMMON CLASS */
 
@@ -46,18 +58,32 @@ padding-bottom: 5px;}
 /* START JUMBOTRON */
 
 .jumbo-row{
-min-height: 700px;
+min-height: 450px;
+padding-top: 30px;
+}
+
+.jumbo-left p{
+	font-weight: bold;
+	font-size: 20px;
+	color:#e0e0d1;}
+
+
+.jumbo-left h1{
+	font-size: 40px;
+	font-weight: bold;
 }
 
 .bg-jumbo{
 	background-image: url(../img/bg-home.svg);
-	background-size: cover;
+	background-size:cover;
+	background-position: center;
 }
 
 .input-part{
 	background-color: #fff;
-	height: 400px;
+	max-height:350px;
 	text-align: center;
+	border-radius: 10px;
 
 }
 
@@ -70,13 +96,40 @@ min-height: 700px;
 	transform: translate(-50%, 0);
 	left: 50%;
 }
+
+.input-part>h3{
+	padding-top: 15px;
+}
 .account-jumbo{
-	width: 90%;
+width: 90%;
 height: 28px;
 position: relative;
 left: 5%;
 line-height:28px;
 border-radius: 5px;
 background: #008ae6;
-color:#fff;
+margin-bottom: 15px;
+}
+.account-jumbo-2{
+width: 90%;
+height: 28px;
+position: relative;
+left: 5%;
+line-height:28px;
+border-radius: 5px;
+background:#fff;
+border: 1px solid #ccc;
+margin-bottom: 15px;
+}
+
+.google-log{
+	position: absolute;
+	left: 10px;
+	top: 25%;
+	color: #ff471a;
+}
+
+.terms{
+	font-weight: bold;
+	font-size: 10px;
 }
