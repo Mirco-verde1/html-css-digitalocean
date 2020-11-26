@@ -14,6 +14,10 @@
 	font-weight: bold;
 }
 
+.pad-bot{
+	padding-bottom: 30px;
+}
+
 .bold{
 	font-weight: bold;
 	text-align: center;
@@ -186,4 +190,34 @@ border: 1px solid #ccc;
 
 /* START DEPLOY AND SCALE SEAMLESSLY */
 
-.
+.left-list ul{
+	list-style: none;
+	border-left: 1px solid #ccc;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+
+.left-list ul li{
+		padding-bottom: 10px;
+		color:#a3a375;
+		font-size: 18px;
+		font-weight:bolder;
+}
+.box-img{
+	min-height:250px;
+}
+.box-img img{
+	margin-top: 20px;
+	height: 50px;
+	width: auto;
+}
+
+.box-img>h5{
+ color:#031b4e;
+ font-weight: bold;
+}
+
+.box-img>p{
+	color:#a3a375;;
+	font-weight: bold;
+}
