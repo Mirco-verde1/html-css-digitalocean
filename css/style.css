@@ -5,6 +5,9 @@
 	border: 0;
 }
 
+.bg-blu{
+	background-color: #000099;
+}
 .bool-txt-white{
 	color: #fff;
 	font-weight: bold;
@@ -13,7 +16,9 @@
 	color:#008ae6;
 	font-weight: bold;
 }
-
+.txt-left{
+	text-align: left;
+}
 .txt-size{
 	font-size: 25px;
 	font-weight: bold;
@@ -161,7 +166,7 @@ border: 1px solid #ccc;
 	width: 130px;
 	height: auto;
  padding-bottom: 50px;
- margin-left: 10%;
+ margin-left: 30%;
 }
 .text-logo{
  text-align: center;
@@ -211,8 +216,8 @@ border: 1px solid #ccc;
 /* START DESIGNED FOR DEVELOPERS ROW */
 .dev-central-img img{
 	position: relative;
-	width: 60%;
-	height:60%;
+	width:100%;
+	height:80%;
 	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 50%;
@@ -220,8 +225,23 @@ border: 1px solid #ccc;
 
 .dev-central-img{
 	position: relative;
-	height: 400px;
+	height: 500px;
+	margin: 0 auto;
 }
+
+/* chevron class left & right*/
+
+.chev-right{
+	float: right;
+	line-height: 500px;
+}
+
+.chev-left{
+	line-height: 500px;
+	text-align: right;
+}
+
+/* end chevron */
 
 .btn-slide{
 	border-radius: 100%;
@@ -253,40 +273,91 @@ border: 1px solid #ccc;
 /* END DESIGNED FOR DEVELOPERS ROW */
 
 
-/* START FEATURES YOUR BUSINESS */
-.logo-dev{
-	width: 100px;
+
+/* START SERVICE YOUR CUSTOM */
+
+/* LEFT TAB & RIGHT TAB */
+.left-col ul, .right-col ul{
+	border-bottom: 1px solid #fff;
+position: relative;
 }
 
+.left-col ul li, .right-col ul li{
+	display: inline-block;
+}
+
+.left-col ul li:first-child, .right-col ul li:first-child{
+	color: #fff;
+	padding-right: 30px;
+	margin-left: -30px;
+}
+.left-col ul li:nth-child(2), .right-col ul li:nth-child(2){
+	color:#b3b3b3;
+	width:65%;
+}
+
+
+.left-col ul:last-child, .right-col ul:last-child{
+border-bottom: none;
+margin-bottom: 30px;
+}
+
+.left-col ul, .right-col ul{
+	width: 100%;
+}
+.test{
+	text-align: right;
+}
+/* END SERVICE YOUR CUSTOM */
 
 /* MEDIA QUERY */
 /* XS */
 @media only screen and (max-width:768px) {
 .box-logo-img img{
-	margin-left: 30%;
-	width: 130px
+	padding-left: 20%;
+
 }
 
 .logo-dep{
 	text-align: left;
 	padding-top: 20px;
 }
+
+
+
+.left-col ul:last-child{
+margin-bottom: 30px;
+}
+
+.left-col ul, .right-col ul{
+font-size: 14px;;
+}
+
+.left-col ul li:nth-child(2), .right-col ul li:nth-child(2){
+	width: 50%;
+font-size: 10px;
 }
 
 /* SM */
 @media screen and (min-width:769px) {
 .box-logo-img img{
+margin-left: 31%;
+padding: 10px;
+vertical-align: middle;
+}
 
+.left-col ul:last-child{
+margin-bottom: 30px;
 }
 }
 
 /* MD */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
 	.box-logo-img img{
 		width: 120px;
 		height: auto;
 	 padding-bottom: 50px;
-
 	}
+
 
 }
