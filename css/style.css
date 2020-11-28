@@ -64,6 +64,7 @@ font-weight: bold;
 .bg-lightgrey2{
 	background:#f5f5f0;
 	height: 600px;
+	margin-bottom: -20px;
 }
 /*END COMMON CLASS */
 
@@ -284,13 +285,6 @@ border: 1px solid #ccc;
 /* END DESIGNED FOR DEVELOPERS ROW */
 
 
-.get-started{
-	width: 100%;
-	background-color: blue;
-	height: 400px;
-}
-
-
 /* START SERVICE YOUR CUSTOM */
 
 /* LEFT TAB & RIGHT TAB */
@@ -336,6 +330,7 @@ transform: translate(-50%, 0);
 left: 50%;
 position: absolute;
 margin-bottom: 30px;
+border-radius: 10px;
 
 }
 
@@ -344,6 +339,41 @@ margin-bottom: 30px;
 	margin-bottom: 30px;
 
 }
+
+/* END DEVELOPMENT & ROCKER BOX */
+
+
+/* START GET STARTED ROW */
+
+.get-started{
+	width: 100%;
+	background-color: blue;
+	height: 360px;
+	line-height: 400px;
+	position: relative;
+}
+
+.get-started h2{
+	font-size: 50px;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-weight: bold;
+}
+
+.get-started h4{
+	background-color: #fff;
+color: rgb(0, 105, 255);
+width: 270px;
+transform: translate(-50%, 0);
+left: 50%;
+position: relative;
+padding: 18px;
+border-radius: 20px;
+font-size: 24px;
+font-weight: bold;
+}
+
+
 
 
 
