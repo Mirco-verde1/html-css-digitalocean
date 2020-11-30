@@ -90,12 +90,16 @@ padding-left: 22px;}
 .options-navbar ul li{
 	display: inline-block;
 	font-size: 12px;
-	padding-right: 5px;
+	padding-right: 9px;
 	line-height: 55px;
 	font-weight: bolder;
   color:#031b4e;
 }
 
+.options-navbar ul li i{
+	font-size: 18px;
+	padding-left: 5px;
+}
 .btn-2 a li{
 		color: #008ae6;
 }
@@ -120,6 +124,7 @@ padding-left: 22px;}
 .jumbo-row{
 min-height: 450px;
 padding-top: 30px;
+font-size: 15px;
 }
 
 .jumbo-left p{
@@ -155,17 +160,19 @@ padding-top: 30px;
 	position: relative;
 	transform: translate(-50%, 0);
 	left: 50%;
+	height: 40px;
 }
 
 .input-part>h3{
 	padding-top: 15px;
+	margin-bottom: 20px;
 }
 .account-jumbo, .account-jumbo-2{
 width: 90%;
-height: 28px;
+height: 40px;
 position: relative;
 left: 5%;
-line-height:28px;
+line-height:40px;
 border-radius: 5px;
 background: #008ae6;
 margin-bottom: 15px;
@@ -319,12 +326,13 @@ position: relative;
 
 .left-col ul li, .right-col ul li{
 	display: inline-block;
+	position: relative;
 }
 
 .left-col ul li:first-child, .right-col ul li:first-child{
 	color: #fff;
-	padding-right: 30px;
 	margin-left: -30px;
+	width: 60px;
 }
 .left-col ul li:nth-child(2), .right-col ul li:nth-child(2){
 	color:#b3b3b3;
@@ -340,6 +348,11 @@ margin-bottom: 30px;
 .left-col ul, .right-col ul{
 	width: 100%;
 }
+
+.left-col ul li a, .right-col ul li a{
+position:relative;
+}
+
 
 /* END SERVICE YOUR CUSTOM */
 
@@ -466,13 +479,9 @@ footer{
 margin-bottom: 30px;
 }
 
-.left-col ul, .right-col ul{
-f
-}
 
-.left-col ul li:nth-child(2), .right-col ul li:nth-child(2){
-	width: 50%;
-}
+
+
 .left-col, .right-col{
 	font-size: 10px;
 }
